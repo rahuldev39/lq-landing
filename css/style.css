@@ -154,6 +154,9 @@ width: 8px;
 }
 .section-hero {
   min-height: calc(100vh - 79px);
+  overflow: visible;
+  z-index: 100;
+  position: relative;
 }
 .call-div .form-control {
   border-radius: 3px;
